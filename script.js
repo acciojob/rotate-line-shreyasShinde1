@@ -1,1 +1,10 @@
 //your JS code here. If required.
+const div = document.createElement("div")
+div.id = "line"
+
+let rotation = 0;
+setInterval(()=>{
+	rotation +=6;
+	div.style.transform = `rotate(${rotation}deg)`
+},1000)
+document.body.appendChild(div)
