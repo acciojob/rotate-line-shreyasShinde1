@@ -3,9 +3,9 @@
 	width: 200px;
 	height : 2px;
 	color : black;
-	transform :rotate(160deg);
+/* 	transform :rotate(160deg); */
 	margin-top : 50%;
 	margin-left : 50%;
-/* 	posistion : absolute; */
+	posistion : absolute;
 	background-color : black;
 }

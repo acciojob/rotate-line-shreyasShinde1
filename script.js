@@ -4,7 +4,7 @@ div.id = "line"
 
 let rotation = 0;
 setInterval(()=>{
-	rotation +=6;
+	rotation +=5;
 	div.style.transform = `rotate(${rotation}deg)`
-},1000)
+},50)
 document.body.appendChild(div)
