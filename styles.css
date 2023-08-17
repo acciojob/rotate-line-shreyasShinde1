@@ -3,7 +3,7 @@
 	width: 200px;
 	height : 2px;
 	color : black;
-/* 	transform :rotate(160deg); */
+	transform :translate(-50%,-50%);
 	margin-top : 50%;
 	margin-left : 50%;
 	posistion : absolute;
