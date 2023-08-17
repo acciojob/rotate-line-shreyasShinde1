@@ -1,5 +1,6 @@
 //your JS code here. If required.
 const div = document.createElement("div")
+div.style.position = "absolute"
 div.id = "line"
 
 let rotation = 0;
